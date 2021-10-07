@@ -1,0 +1,47 @@
+/*Importation google font*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/*navbar*/
+nav {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(157, 157, 228);
+}
+/*navbar logo*/
+#logo_name {
+    font-family: 'Lobster';
+    font-size: 25px;
+    text-shadow: 1px 1px white;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+#logo_societe {
+    font-family: 'Lobster';
+    font-size: 25px;
+    text-shadow: 1px 1px white;
+    margin-left: 90px;
+    margin-top: 5px;
+}
+/*Navbar liens de droite*/
+ul {
+    display: flex;
+    float: right;
+    margin-top: -45px;
+    margin-right: 25px;
+}
+li {
+    padding-right: 15px;
+    display: inline;
+}
+/*
+li a::after {
+    transition:2s;
+    text-decoration: underline ;
+    padding:0 10px;
+}
+li a:hover {
+    transition:2s;
+    text-decoration: underline ;
+    padding:0 10px;
+}
+*/
