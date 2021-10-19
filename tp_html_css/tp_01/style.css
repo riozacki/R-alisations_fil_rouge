@@ -1,0 +1,62 @@
+
+html{
+    height: 100%;
+}
+body{
+    background-image: radial-gradient( aqua, black);
+    position: relative;
+}
+header{
+    height: 200px;
+    text-align: center;
+}
+h1{
+    color: #531018;
+    font-size: 3em;
+    font-weight: bold;
+    text-decoration: underline dotted ;
+}
+img{
+    border: solid 2px black;
+
+}
+footer{
+    float: right;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+a:hover{
+    color: rgb(47, 190, 47);
+}
+a:visited{
+    color: rgb(216, 150, 50);
+}
+a{
+    color: indigo;
+}
+strong{
+    color:red;
+}
+.top{
+    margin-top: 18%;
+}
+article{
+    border: solid 2px black;
+}
+form {
+    width: 500px;
+    clear: both;
+  }
+  
+input {
+    width: 100%;
+    clear: both;
+  }
+#t1{
+    text-align: center;
+}
+#img1{
+    text-align:center;
+}

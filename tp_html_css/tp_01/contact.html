@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <h1>Gros titre</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="aticle.html">Blog</a></li>
+                <li><a href="#">Gallerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form action="monProgramme.php" method="post">
+            <fieldset>
+                <legend>Formulaire de souscription</legend>
+                <div>
+                    <label for="nom">Entrez votre Nom:</label>
+                    <input type="text" name="nom" placeholder="ICI Votre Nom" minlength="2" maxlength="20" /><br />
+                </div>
+                <div>
+                    <label for="mail">Entrez votre E-mail: <strong>*</strong></label>
+                    <input type="mail" name="mail" placeholder="ICI Votre mail" /><br />
+                </div>
+                <div>
+                    <label for="area">Laisser un commentaire:</label>
+                    <textarea name="comment" id="area" cols="70" placeholder="ICI votre commentaire!"
+                        rows="10"></textarea>
+                </div><br />
+                <div>
+                    <legend>Envoyer copie</legend>
+                    <input type="checkbox" checked='checked' id="checkbox" /><label for="checkbox">Ne fonctionne
+                        pas</label><br />
+                </div>
+                <div>
+                    <input type="submit" value="Envoyer" name="envoyer" />
+                    <input type="reset" value="Reset" name="envoyer" />
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="#">Lien fictifs 1</a></li>
+            <li><a href="#">Lien fictifs 2</a></li>
+            <li><a href="#">Lien fictifs 3</a></li>
+            <li><a href="#">Lien fictifs 4</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>

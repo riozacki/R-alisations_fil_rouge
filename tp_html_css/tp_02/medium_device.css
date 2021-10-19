@@ -1,0 +1,64 @@
+@media screen and (max-width: 1280px){
+    nav{
+        width: 70%;
+        margin-left:15%;
+    }
+    nav ul, li {
+        display: flex;
+        justify-content: center;
+    }
+    article{
+        display: grid;
+        margin-top: 15%;
+        margin-left: 1%;
+        grid-template-columns: 1fr;
+
+    }
+    .aticle1{
+        grid-column:1 ;
+        grid-row: 1;
+    
+    }
+    .img1{
+        grid-column: 1;
+        grid-row: 2;
+    
+    }
+    .aticle2{
+        grid-column: 1 ;
+        grid-row: 3;
+    }
+    .img2{
+        grid-column: 1;
+        grid-row: 4;
+    }
+    .aticle3{
+        grid-column: 1 ;
+        grid-row: 5;
+    }
+    .img3{
+        grid-column: 1;
+        grid-row: 6;
+    }
+    .aticle4{
+        grid-column: 1 ;
+        grid-row: 7;
+    }
+    .img4{
+        grid-column: 1;
+        grid-row: 8;
+    }
+    .aticle5{
+        grid-column: 1;
+        grid-row: 9;
+    }
+    .img5{
+        grid-column: 1;
+        grid-row: 10;
+    }
+    section{
+        margin-top: 15%;
+        margin-right: 1%;
+    }
+    
+}

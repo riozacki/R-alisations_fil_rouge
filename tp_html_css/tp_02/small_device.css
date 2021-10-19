@@ -1,0 +1,18 @@
+@media screen and (max-width: 700px){
+    section{
+        margin-top: 700%;
+        margin-right: 30%;  
+    }
+    article{
+        margin-top: 20%;
+        margin-left: 60px;   
+        width: 80%;
+        position: absolute;
+    }
+    footer{
+        margin-top: 1000%;
+    }
+    nav ul li{
+        padding-right: 10px;
+    }
+}
