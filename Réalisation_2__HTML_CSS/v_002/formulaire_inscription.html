@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulaire_inscription.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>Inscription</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navbar__links">
+                <li class="navbar__link first"><a href="index.html">Accueil</a></li>
+                <li class="navbar__link second"><a href="#Catalogue">Catalogue</a></li>
+                <li class="navbar__link second"><a href="#Inscription">Inscription</a></li>
+                <li class="navbar__link third"><a href="#Mon_compte">Mon compte</a></li>
+                <li class="navbar__link four"><a href="contact.html">Contact</a></li>
+                <li class="navbar__link fifth"><a href="#">A propos</a></li>
+            </ul>
+            <div id="logo_name">Sirven Josianne</a></div>
+            <div id="logo_societe">Bijoux Fantaisie</a></div>
+        </nav>
+    </header>
+
+    <section>
+        <form method="POST" action="formulaireInscription.php">
+            <fieldset>
+                <legend>Informations personnelle</legend>
+                <label for="nom">Nom </label>
+                <input type="text" name="   nom" size="10" placeholder="Entrez votre nom" maxlength="20" id="nom" />
+                <label for="prenom">Prénom </label>
+                <input type="text" name="prenom" size="10" placeholder="Entrez votre prénom" maxlength="20"
+                    id="prenom" />
+                <label for="email">E-mail </label>
+                <input type="text" name=" email" size="10" placeholder="Entrez votre email" maxlength="20" id="nom" />
+                <label for="tel">Tel </label>
+                <input type="text" name="   tel" size="10" placeholder="Entrez votre numéro" maxlength="20" id="nom" />
+                <label for="adress">Adresse</label>
+                <input type="text" name="Adress" size="10" placeholder="Entrez votre adresse" id="adress" />
+                <label for="pseudo">Pseudonyme</label>
+                <input type="text" name="pseudo" size="10" placeholder="Entrez un pseudonyme" id="pseudo" />
+                <label for="password">Mdp </label>
+                <input type="password" name="mdp" size="10" placeholder="Entrez votre mot de passe" maxlength="30"
+                    id="nom" />
+                <label for="password">Confirmation du mot de passe </label>
+                <input type="password" name="   mdp" size="10" placeholder="Confirmez votre mot de passe" maxlength="30"
+                    id="nom" />
+            </fieldset>
+        </form>
+    </section>
+    
+</body>
+
+</html>

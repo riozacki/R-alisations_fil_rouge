@@ -1,0 +1,54 @@
+/*Importation google font*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/*navbar*/
+nav {
+    position: fixed;
+    height: 85px;
+    width: 100%;
+    background-image : linear-gradient(to left bottom,#502419 30%, #b78b52    );
+    box-shadow: 3px 3px black;   
+    z-index: 2;
+}
+nav a {
+    display: flex;
+    color:  rgb(132, 108, 53);
+    padding-right: 20px;
+    text-shadow: 1px 1px white;
+}
+/*navbar logo*/
+#logo_name, #logo_societe {
+    font-family: 'Lobster';
+    font-size: 1.5em;
+    text-shadow: 1px 1px white;
+    margin-left: 2%;
+    margin-top: 5px;
+    transition: 1s;
+    font-size: 1.8em;
+    color: rgb(66, 50, 11);
+}
+#logo_societe {
+    margin-left: 5%;
+}
+/*Navbar liens de droite*/
+.navbar__links{
+    display: flex;
+    float: right;
+    padding: 15px;
+    margin-top: 10px;
+    transition: 1s;
+    margin-right: 20px;
+    font-size: 1.2em;
+}
+/*Effet de soulignement*/
+::after{
+    display:block;
+    content:"";
+    width:0;
+    height:0.1em;
+    background-color: rgb(210, 186, 141);
+    transition: .4s; 
+}
+.navbar__link:hover::after{
+    width: 90%;    
+}

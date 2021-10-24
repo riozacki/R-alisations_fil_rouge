@@ -1,0 +1,39 @@
+form {
+    width: 500px;
+    clear: both;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: left;
+    margin: auto;
+    scale: 2;
+    border-style: solid;
+    padding: 40px;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: rgb(84, 19, 19);
+
+    background-image:url(../img_main_section/parchemin_03.png) ;
+    color: white;
+}
+
+  
+input {
+    width: 100%;
+    clear: both;
+  }
+
+section{
+    padding-top: 400px;
+
+
+}
+fieldset{
+    padding: 20px;
+    border-radius: 15px;
+    border-color: rgb(84, 19, 19);
+
+}
+html{
+    background-image:linear-gradient(to left top, rgb(35, 17, 6) ,  rgb(49, 33, 4),rgb(35, 17, 6) 80%);
+    height: 3000px;
+}

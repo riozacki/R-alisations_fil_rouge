@@ -1,0 +1,34 @@
+/*Flexbox de gauche*/
+#container1{
+    top: 200px;
+    border: 2px rgb(84, 19, 19) solid;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    background-image:linear-gradient(to left top, #502419,#F1F0CC, #502419 500%) ;
+    color: white;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    margin-left: 60px;
+    border-radius: 15px; 
+    font-family: 'Lobster';   
+}
+.box{
+    font-size: 1.2em;
+    border-style: solid;
+    margin: auto;
+    width:200px;
+    height:60px;
+    text-align: center;
+    background-color: black;
+    line-height: 50px;
+}
+.box a{
+    color: white;   
+
+}
+.box:hover{
+    background-color: rgb(66, 50, 11);
+    text-shadow: 1px 1px black;
+}

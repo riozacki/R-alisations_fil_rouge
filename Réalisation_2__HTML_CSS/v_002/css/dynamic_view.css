@@ -1,0 +1,61 @@
+main{
+    padding-top:200px;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+}
+section{
+    margin: auto; /*centre la grille*/
+    width: 65%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;   
+    border-style:  solid;
+    padding: 90px;
+    border-radius: 15px;
+    border-color: rgb(84, 19, 19);
+    background-image: url(../img_main_section/parchemin_03.png);
+    font-size: 2em;
+    font-family: 'Great Vibes';
+    color:white;
+    text-shadow: 4px 4px 4px black  ;    
+    line-height: 50px;
+    margin-left: 220px; /*Mauvaise solution - a revoir*/
+}
+/*Articles*/
+p{
+    background-color: rgb(66, 50, 11);
+    padding:15px;
+    border-radius: 15px;
+    border-style: solid ;
+    border-color: rgb(161, 136, 89);
+}
+.p1{
+    grid-column: 1;
+    grid-row: 1;
+}
+.p2{
+    grid-column: 2;
+    grid-row: 2;
+}
+.p3{
+    grid-column: 1;
+    grid-row: 3;
+}
+.p4{
+    grid-column: 2;
+    grid-row: 4;
+}
+/*Images Articles*/
+.prod1{
+    text-align: center;
+    border-style: solid;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #DADADA;
+    border-color: wheat;
+    padding-top: 10px;
+}
+body{
+    background-image:linear-gradient(to left top, rgb(35, 17, 6) 30% ,  rgb(1, 1, 1),rgb(35, 17, 6) 80%);
+}
